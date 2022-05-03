@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  display:        flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:    center;
+}
+
+.Form {
+  display:        flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:    center;
+  width:          70%;
 }
 
 .App-logo {
@@ -35,4 +47,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+textarea {
+  resize:none
 }
